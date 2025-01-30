@@ -16,8 +16,6 @@ minutesElement.textContent = fixtame(minutes)
 secondElement.textContent = fixtame(seconds)
 
 function fixtame(time) {
-    return time < 10 ? "0"+time : time
-} 
-}
+    return time < 10 ? "0"+time : time}}
 newTime()
 setInterval(newTime, 1000)
